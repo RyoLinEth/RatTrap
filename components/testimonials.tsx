@@ -7,41 +7,41 @@ import TestimonialImage03 from '@/public/images/testimonial-03.jpg'
 export default function Testimonials() {
   const DinoMap = [
     {
-      imgSrc: 'images/GuitarDinosaur.png',
+      imgSrc: 'images/RatTrapLogo.jpg',
       title: '2023 Q2',
       content: (
         <p>
-          1. 2000 Holders<br/>
-          2. 5000 Telegram Members<br/>
-          3. Launch On PinkSale<br/>
-          4. Launch On PancakeSwap<br/>
+          1. 2000 Holders<br />
+          2. 5000 Telegram Members<br />
+          3. Launch On PinkSale<br />
+          4. Launch On PancakeSwap<br />
           5. Website Launch
         </p>
       ),
     },
     {
-      imgSrc: 'images/PlayPhone.png',
+      imgSrc: 'images/RatTrapLogo.jpg',
       title: '2023 Q3-4',
       content: (
         <p>
-          1. 5000 Holders<br/>
-          2. 10000 Telegram Members<br/>
-          3. Listing On CEX<br/>
-          4. Listing On CG/CMC<br/>
+          1. 5000 Holders<br />
+          2. 10000 Telegram Members<br />
+          3. Listing On CEX<br />
+          4. Listing On CG/CMC<br />
           5. Website Redesign
         </p>
       ),
     },
     {
-      imgSrc: 'images/GuitarDinosaur.png',
+      imgSrc: 'images/RatTrapLogo.jpg',
       title: '2024 ~',
       content: (
         <p>
-          1. 10000 Holders<br/>
-          2. 20000 Telegram Members<br/>
-          3. Dinosaur DApp<br/>
-          4. Dinosaur Game<br/>
-          5. Dinosaur Merchandise
+          1. 10000 Holders<br />
+          2. 20000 Telegram Members<br />
+          3. Rattrap DApp<br />
+          4. Rattrap Game<br />
+          5. Rattrap Merchandise
         </p>
       ),
     },
@@ -53,14 +53,15 @@ export default function Testimonials() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">DinoMap</h2>
+            <h2 className="h2 mb-4">RatMap</h2>
             <p className="text-xl text-gray-400">
-              Reviving dinosaur is impossible.
-              But
+              Feeding Your Rattrap.
+              By Buying
               <span className="text-blue-500 ml-2 mr-2">
-                $Dinosaur
+                $Rattrap
               </span>
-              can live forever.
+              <br />
+              You'll be able to feed one as you buy.
             </p>
           </div>
 

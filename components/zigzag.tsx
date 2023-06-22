@@ -62,7 +62,7 @@ export default function Zigzag() {
                     Tokenomics
                   </div>
                   <h3 className="h3 mb-3">
-                    Transparent Distribution
+                    Token Distribution
                   </h3>
                 </div>
               </div>

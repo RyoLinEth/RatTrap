@@ -9,7 +9,7 @@ export default function Footer() {
       part: [
         {
           title: 'Telegram',
-          link: 'https://t.me/Dinosaur_talk',
+          link: 'https://t.me/',
         },
         // {
         //   title: 'Twitter',
@@ -57,12 +57,12 @@ export default function Footer() {
               <div className="mb-2">
                 {/* Logo */}
                 <Link href="/" className="inline-block" aria-label="Cruip">
-                  <img src='images/GuitarDinosaur.png' width={40} />
+                  <img src='images/RatTrapLogo.jpg' width={40} />
                 </Link>
               </div>
               <div className="text-gray-400">
-                Dinosaur is the cutiest meme in BSC.
-                Looking forward to ETH, ARB and all chain
+                Rattrap is A Little Mouse With A Big Dream <br/>
+                --  Everone Holding Rattrap  --
               </div>
             </div>
 
@@ -125,7 +125,7 @@ export default function Footer() {
             </ul> */}
 
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">&copy; Dinosaur 2023. All rights reserved.</div>
+            <div className="text-gray-400 text-sm mr-4">&copy; Rattrap 2023. All rights reserved.</div>
 
           </div>
 

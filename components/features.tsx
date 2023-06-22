@@ -86,9 +86,9 @@ export default function Features() {
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
               <h2 className="h2 mb-4">About Us.</h2>
               <p className="text-xl text-gray-400">
-                Every boy has a dinosaur in his heart. <br />
-                Even though we grow up, the dinosaur in our heart never dies. <br />
-                Remind you with the cute dinosaur, to memorize self in youth<br />
+                Rattrap is an irresistibly cute mouse. <br />
+                With its unique appearance, agile movements, and charming personality, it effortlessly integrates into our lives. <br />
+                Whether in the wild or as a pet to humans, Rattrap is a stunning creature that brings delight wherever it goes.
               </p>
             </div>
 

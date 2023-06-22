@@ -2,10 +2,11 @@ import VideoThumb from '@/public/images/hero-image-01.jpg'
 import ModalVideo from '@/components/modal-video'
 
 export default function Hero() {
-  const contractAddress = "0xd9BA1DF1BaDB82077aaFc6e9aF4031F84f6A13a7"
-  const pancakeLink=`https://pancakeswap.finance/swap?outputCurrency=${contractAddress}`
+  const contractAddress = "0x41b7Fe65CcC2aB05FCD0F4fb5f55A075F2a406Ca"
+  const pancakeLink = `https://pancakeswap.finance/swap?outputCurrency=${contractAddress}`
 
-  const presaleLink='https://www.pinksale.finance/launchpad/0x1069CD7672220Ee1Ad0a69adF7A5261Be8E7f4d0?chain=BSC'
+  const presaleContract = '';
+  const presaleLink = `https://www.pinksale.finance/launchpad/${presaleContract}?chain=BSC`
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
@@ -28,9 +29,11 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4" data-aos="fade-up">Dinosaur</h1>
+            <h1 className="h1 mb-4" data-aos="fade-up">
+              Rattrap
+            </h1>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
-              A meme in BSC, with a cute dinosaur logo <br />
+              A Little Mouse With A Big Dream <br />
               CA : <br />
               <span className='text-sm'>
                 {contractAddress}
@@ -53,9 +56,15 @@ export default function Hero() {
             </div>
           </div>
 
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <div style={{
+            display: 'flex',
+            justifyContent: 'center',
+          }}>
             <img
-              src="images/GuitarDinosaur.png"
+              style={{
+                width: '50%'
+              }}
+              src="images/RatTrapLogo.jpg"
             />
           </div>
 

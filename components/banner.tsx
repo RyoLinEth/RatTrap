@@ -12,7 +12,7 @@ export default function Banner() {
           <div className="bg-slate-800 text-slate-50 text-sm p-3 md:rounded shadow-lg flex justify-between">
             <div className="text-slate-500 inline-flex">
               <a className="font-medium hover:underline text-emerald-400"
-                href="https://t.me/Dinosaur_talk" target="_blank" rel="noreferrer">
+                href="https://t.me/" target="_blank" rel="noreferrer">
                 Our Telegram
               </a>
             </div>
